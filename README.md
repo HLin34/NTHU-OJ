@@ -52,8 +52,7 @@ Input and output requirements depend on the corresponding problem statement on N
 - This repository primarily serves as an archive of my undergraduate programming coursework and practice.
 - Some problems may have multiple solution versions, named with `_v2`, `_v3`, etc.
 - Problem descriptions and evaluation criteria are maintained by NTHU Online Judge.
-- The repository contains historical implementations and has not been fully retested with modern compilers.
-
+- Selected solutions have been reverified through NTHU Online Judge; the full repository has not been exhaustively retested.
 ## References
 
 - [NTHU Online Judge](https://acm.cs.nthu.edu.tw/)
