@@ -14,11 +14,11 @@ Each solution is named according to its problem ID. To view the original problem
 
 | Directory | Description |
 |---|---|
-| `題庫/` | Programming practice problems and solutions |
-| `期末考/` | Final examination-related programming exercises |
-| `bonus/` | Additional programming exercises |
-| `Pointers practices/` | C pointer practice |
-| `期中題庫.docx` | Midterm practice problem reference |
+| `practice-problems/` | Programming practice problems and solutions |
+| `final-exam/` | Final examination-related programming exercises |
+| `bonus-problems/` | Additional programming exercises |
+| `pointer-practice/` | C pointer practice |
+| `midterm-problem-list.docx` | Midterm practice problem reference |
 
 ## Programming Language
 
@@ -33,7 +33,7 @@ Most solutions are standalone C programs and can be compiled using GCC.
 For example:
 
 ```bash
-gcc 12140.c -o solution
+gcc bonus-problems/12140.c -o solution
 ./solution
 ```
 
@@ -50,7 +50,7 @@ Input and output requirements depend on the corresponding problem statement on N
 ## Notes
 
 - This repository primarily serves as an archive of my undergraduate programming coursework and practice.
-- Some problems may have multiple solution versions.
+- Some problems may have multiple solution versions, named with `_v2`, `_v3`, etc.
 - Problem descriptions and evaluation criteria are maintained by NTHU Online Judge.
 - The repository contains historical implementations and has not been fully retested with modern compilers.
 
